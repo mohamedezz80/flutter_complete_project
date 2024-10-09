@@ -15,11 +15,6 @@ void main() {
   // //   SystemUiMode.manual,
   // //   overlays: [SystemUiOverlay.top],
   // // );
-  // Future.delayed(const Duration(seconds: 3)).then((_) {
-  //   runApp(DocApp(
-  //     appRouter: AppRouter(),
-  //   ));
-  // });
   runApp(DocApp(
     appRouter: AppRouter(),
   ));
