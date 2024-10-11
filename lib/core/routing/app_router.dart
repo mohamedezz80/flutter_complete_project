@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_complete_flutter/core/di/dependency_injection.dart';
 import 'package:flutter_complete_flutter/core/routing/routes.dart';
+import 'package:flutter_complete_flutter/features/home/ui/home_screen.dart';
 import 'package:flutter_complete_flutter/features/login/logic/login_cubit.dart';
 import 'package:flutter_complete_flutter/features/onboarding/onboarding_screen.dart';
 
@@ -19,6 +20,10 @@ class AppRouter {
           builder: (_) => BlocProvider(
               create: (context) => getIt<LoginCubit>(),
               child: const LoginScreen()),
+        );
+      case Routes.homeScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
         );
       default:
         return MaterialPageRoute(
