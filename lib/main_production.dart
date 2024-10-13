@@ -14,3 +14,8 @@ void main() async {
 
 // To run release mode production.
 // flutter run --release -t lib\main_production.dart --flavor production
+
+// To build apk release mode production.
+// flutter build apk --flavor production -t lib\main_production.dart
+
+//038H4dUz-a65DCgYIARAAGAMSNwF-L9IreITuBnb39vJ4xlQ7Po28iGe5uaMqyCFXZM026LHr-76OCwr7hvdZ8dgNTqseIHHcvxA

@@ -13,5 +13,7 @@ void main() async {
 }
 
 // To run release mode development.
-// // To run release mode development.
-// // flutter run --release -t lib\main_development.dart --flavor development
+// flutter run --release -t lib\main_development.dart --flavor development
+
+// To build apk release mode development.
+// flutter build apk --flavor development -t lib\main_development.dart
