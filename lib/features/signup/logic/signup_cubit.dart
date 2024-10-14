@@ -10,6 +10,7 @@ class SignupCubit extends Cubit<SignupState> {
   final SignupRepo _signupRepo;
   SignupCubit(this._signupRepo) : super(const SignupState.initial());
 
+
   TextEditingController nameController = TextEditingController();
   TextEditingController emailController = TextEditingController();
   TextEditingController phoneController = TextEditingController();
