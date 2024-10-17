@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_flutter/core/helpers/extentions.dart';
+import 'package:flutter_complete_flutter/core/helpers/extensions.dart';
 import 'package:flutter_complete_flutter/core/theming/styles.dart';
 
 import '../../../../core/routing/routes.dart';

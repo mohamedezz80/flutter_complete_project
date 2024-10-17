@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_flutter/core/helpers/constants.dart';
-import 'package:flutter_complete_flutter/core/helpers/extentions.dart';
+import 'package:flutter_complete_flutter/core/helpers/extensions.dart';
 import 'package:flutter_complete_flutter/core/helpers/shared_prefrences.dart';
 import 'package:flutter_complete_flutter/core/routing/app_router.dart';
 import 'package:flutter_complete_flutter/doc_app.dart';
