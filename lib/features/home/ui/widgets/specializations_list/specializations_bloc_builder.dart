@@ -57,5 +57,4 @@ class SpecializationsBlocBuilder extends StatelessWidget {
   Widget setupError() {
     return const SizedBox.shrink();
   }
-
 }
